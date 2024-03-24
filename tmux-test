@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Run the tests and pipe the output to less for scrolling
+go test ./... | less -X +G
+
+
+
